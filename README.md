@@ -28,10 +28,10 @@ As the BI Analyst, I led the data integration, cleaning, transformation, and vis
 
 | Step | Description | Output |
 |------|-------------|--------|
-| **Step 1** | Clean and aggregate the raw data in BigQuery | [`Step 1 (1).sql`](./Step%201%20(1).sql) → `registration_clean`, `med_audit` tables |
-| **Step 2** | Answer business questions using SQL | [`Step 2 (1).sql`](./Step%202%20(1).sql) |
+| **Step 1** | Clean and aggregate the raw data in BigQuery | [`Step 1.sql`](2_queries/Step%201.sql) → `registration_clean`, `med_audit` tables |
+| **Step 2** | Answer business questions using SQL          | [`Step 2.sql`](2_queries/Step%202.sql) |
 | **Step 3** | Create an interactive Looker Studio dashboard | [`dashboard_link.txt`](3_dashboards/dashboard_link.txt) |
-| **Step 4** | Present the final findings and insights | Live presentation (video not hosted in this repo) |
+| **Step 4** | Present the final findings and insights       | Live presentation (video not hosted in this repo) |
 
 ---
 
@@ -100,18 +100,21 @@ The dashboard includes two pages:
 ```bash
 ├── README.md
 ├── 1_data/
-│   └── schema_summary.md
+│   ├── healthtail_reg_cards.csv
+│   ├── invoices.csv
+│   └── visits.csv
 ├── 2_queries/
-│   ├── Step 1.sql               # registration_clean & med_audit
-│   ├── Step 2.sql               # Business questions
+│   ├── Step 1.sql                  # registration_clean & med_audit
+│   ├── Step 2.sql                  # Business questions
 │   ├── diagnosis_unified.sql
-│   ├── procurement_summary.sql
-│   └── med_margin_summary.sql
+│   ├── invoices_cleaned.sql
+│   ├── med_margin_summary.sql
+│   ├── reg_cards_clean.sql
+│   └── visits_data_clean.sql
 ├── 3_dashboards/
-│   ├── dashboard_overview.png
+│   ├── Healthtail Dashboard.png
 │   └── dashboard_link.txt
-└── imgs/
-    └── (screenshots for README if needed)
+
 ```
 
 ---
