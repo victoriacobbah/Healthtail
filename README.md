@@ -28,8 +28,8 @@ As the BI Analyst, I led the data integration, cleaning, transformation, and vis
 
 | Step | Description | Output |
 |------|-------------|--------|
-| **Step 1** | Clean and aggregate the raw data in BigQuery | [`Step 1.sql`](2_queries/Step%201.sql) → `registration_clean`, `med_audit` tables |
-| **Step 2** | Answer business questions using SQL | [`Step 2.sql`](2_queries/Step%202.sql) |
+| **Step 1** | Clean and aggregate the raw data in BigQuery | [`Step 1 (1).sql`](./Step%201%20(1).sql) → `registration_clean`, `med_audit` tables |
+| **Step 2** | Answer business questions using SQL | [`Step 2 (1).sql`](./Step%202%20(1).sql) |
 | **Step 3** | Create an interactive Looker Studio dashboard | [`dashboard_link.txt`](3_dashboards/dashboard_link.txt) |
 | **Step 4** | Present the final findings and insights | Live presentation (video not hosted in this repo) |
 
